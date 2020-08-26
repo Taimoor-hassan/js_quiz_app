@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(92, 92, 243);
+}
+
+.welcome{
+    width: 400px;
+}
+.welcome_form input,
+.welcome_form button{
+    width: 100%;
+    display: block;
+}
+.welcome_form button{
+    padding: 1rem;
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    color: rgb(92, 92, 243);
+    cursor: pointer;
+}
+.welcome_form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    outline: none;
+}
+
+.quiz{
+    background-color: white;
+    width: 900px;
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+}
+
+.quiz_head{
+ background-color: white;
+ height: 10%;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+ display: flex;
+ justify-content: space-between;
+ z-index: 1;
+}
+.quiz_body{
+ background-color: rgb(224, 222, 222);
+ height: 90%;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 20px;
+    
+}
+.timer{
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+}
+.option{
+    background-color: white;
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    margin: 30px;
+    border: 2px solid transparent;
+
+}
+.option:hover{
+    cursor: pointer;
+    border: 2px solid rgb(92, 92, 243);
+}
+.next{
+    margin: 0 30px;
+    padding: .5rem 4rem;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: rgb(92, 92, 243);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(92, 92, 243);
+    color: white;
+}
+.result{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+}
